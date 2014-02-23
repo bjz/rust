@@ -1398,7 +1398,7 @@ mod biguint_tests {
     use std::cmp::{Less, Equal, Greater};
     use std::from_str::FromStr;
     use std::i64;
-    use std::num::{Zero, One, FromStrRadix};
+    use std::num::{Zero, One, FromStrRadix, ToStrRadix};
     use std::num::{ToPrimitive, FromPrimitive};
     use std::rand::{task_rng};
     use std::str;
@@ -2056,7 +2056,7 @@ mod bigint_tests {
 
     use std::cmp::{Less, Equal, Greater};
     use std::i64;
-    use std::num::{Zero, One, FromStrRadix};
+    use std::num::{Zero, One, FromStrRadix, ToStrRadix};
     use std::num::{ToPrimitive, FromPrimitive};
     use std::rand::{task_rng};
     use std::u64;

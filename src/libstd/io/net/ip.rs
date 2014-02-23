@@ -339,6 +339,7 @@ impl FromStr for SocketAddr {
 mod test {
     use prelude::*;
     use super::*;
+    use from_str::FromStr;
 
     #[test]
     fn test_from_str_ipv4() {

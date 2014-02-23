@@ -16,6 +16,7 @@ use std::io::BufReader;
 use std::cmp::Eq;
 use collections::HashMap;
 use std::hash::{Hash, sip};
+use std::from_str::FromStr;
 use std::uint;
 
 /// A Uniform Resource Locator (URL).  A URL is a form of URI (Uniform Resource

@@ -40,6 +40,7 @@ use term::Terminal;
 use term::color::{Color, RED, YELLOW, GREEN, CYAN};
 
 use std::cmp;
+use std::from_str::FromStr;
 use std::io;
 use std::io::{File, PortReader, ChanWriter};
 use std::io::stdio::StdWriter;

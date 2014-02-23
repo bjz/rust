@@ -69,6 +69,7 @@ use std::vec;
 use std::num::FromStrRadix;
 use std::char::Char;
 use std::container::Container;
+use std::default::Default;
 use std::to_str::ToStr;
 use std::rand;
 use std::rand::Rng;
